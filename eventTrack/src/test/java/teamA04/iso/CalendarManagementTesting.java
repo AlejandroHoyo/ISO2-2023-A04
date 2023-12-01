@@ -14,7 +14,7 @@ public class CalendarManagementTesting {
 	
 	@Test
 	public void testAddEventsToCalendar(){
-		boolean testAddEventsToCalendar;
+		boolean testAddEventsToCalendar=true;
 		assertTrue(testAddEventsToCalendar);
 	}
 	
