@@ -1,6 +1,7 @@
-package xd;
+package teamA04.iso.persistence;
 
-public class DAO<T> {
+public class DAO<T>{
+
 	public T read(String id) {
 		return null;
 	}
@@ -13,4 +14,5 @@ public class DAO<T> {
 	public boolean add(T Event) {
 		return false;
 	}
+
 }

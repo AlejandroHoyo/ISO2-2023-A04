@@ -1,4 +1,4 @@
-package Domain;
+package teamA04.iso.domain;
 import java.util.Date;
 import java.util.LinkedList;
 
@@ -49,4 +49,14 @@ public class Event {
 		setAttendee(attendee);
 		setEventID(eventID);
 	}
+	
+	public void editInformation(Event e) {
+		
+	}
+	public String displayInformation(Event e) {
+		
+		return e.getInformation();
+	}
+	
+	
 }
