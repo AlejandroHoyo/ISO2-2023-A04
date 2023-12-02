@@ -1,4 +1,5 @@
 package teamA04.iso.domain;
+import teamA04.iso.domain.Event;
 
 public class Attendee {
 	
@@ -71,5 +72,13 @@ public class Attendee {
 		boolean exit = true;
 		
 		return exit;
+	}
+	
+	public void attendEvent(Event e) {
+		
+	}
+	
+	public void evaluateEvent(Event e) {
+		
 	}
 }
