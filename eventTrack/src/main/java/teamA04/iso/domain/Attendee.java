@@ -12,7 +12,6 @@ public class Attendee {
 	private String type;
 
 	public Attendee(String userID, String userName, String password, String type) {
-		super();
 		this.userID = userID;
 		this.userName = userName;
 		this.password = password;
@@ -79,6 +78,10 @@ public class Attendee {
 	}
 	
 	public void evaluateEvent(Event e) {
+		
+	}
+	
+	public void registerForEvent(Event e) {
 		
 	}
 }
