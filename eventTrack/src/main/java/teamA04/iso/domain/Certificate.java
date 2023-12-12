@@ -4,13 +4,13 @@ public class Certificate {
 	
 	private String cetificateID;
 	
-	public boolean status_sent;
+	private boolean status_sent;
 
-	Attendee student;
+	private Attendee student;
 	
-	Event_Organizer teacher;
+	private Event_Organizer teacher;
 	
-	Event event;
+	private Event event;
 	
 
 	public Certificate(String cetificateID, boolean status_sent, Attendee student, Event_Organizer teacher, Event event) {
@@ -68,6 +68,14 @@ public class Certificate {
 
 	public void setEvent(Event event) {
 		this.event = event;
+	}
+	
+	public void addSignature() {
+		
+	}
+	
+	public void emailStudent() {
+		
 	}
 
 	
