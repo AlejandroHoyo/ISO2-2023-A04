@@ -13,5 +13,10 @@ public class Control_Certificate {
 	public void sendCertificate(Certificate c) {
 		
 	}
+	
+	public Certificate requestCertificate() {
+		Certificate c;
+		return c;
+	}
 
 }
