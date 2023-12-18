@@ -1,17 +1,19 @@
-package domain;
+package teamA04.iso.domain;
 
-import java.util.Date; 
+import java.util.Date;
 import java.util.LinkedList;
 
-public abstract class Event {
-	protected String name;
-	protected String type;
-	protected Date date;
-	protected String description;
-	protected LinkedList<Attendee> attendee;
-	protected String eventID;
-	protected LinkedList<Attendee> registeredList;
-	protected int capacity;
+import teamA04.iso.presentation.AttendanceWindow;
+
+public class Event {
+	private String name;
+	private String type;
+	private Date date;
+	private String description;
+	private LinkedList<Attendee> attendee;
+	private String eventID;
+	private LinkedList<Attendee> registeredList;
+	private int capacity;
 	
 	public Event(String name, String type, Date date, String description,LinkedList<Attendee> attendee, 
 			String eventID, LinkedList <Attendee> registeredList,int capacity) {
@@ -78,5 +80,11 @@ public abstract class Event {
 		return e.getInformation();
 	}
 	
+	public void addRating(Rating r) {
+		
+	}
 	
+	public int getAverageRating() {
+		
+	}
 }
