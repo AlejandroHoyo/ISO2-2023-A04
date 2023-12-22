@@ -38,4 +38,8 @@ public class Event_Manager {
 	public void assignToSubject() {
 		
 	}
+	public void requestReport() {
+		
+	}
+	
 }
